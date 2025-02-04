@@ -1,0 +1,16 @@
+﻿@page
+@using OIDCAuthorizationServer
+@model OIDCAuthorizationServer.Pages.ConsentModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+	Layout = null;
+}
+
+Consent
+Redirect url: @Model.ReturnUrl
+
+<form method="post">
+    <input type="submit" name="grant" value="@Consts.GrantAccessValue">
+    <input type="submit" name="grant" value="@Consts.DenyAccessValue" />
+</form>

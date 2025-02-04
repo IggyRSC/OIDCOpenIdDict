@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OIDCAuthorizationServer.props" />
+</Project>

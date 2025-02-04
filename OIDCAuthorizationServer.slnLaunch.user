@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OIDCAuthorizationServer\\OIDCAuthorizationServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ResourceServer\\ResourceServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
